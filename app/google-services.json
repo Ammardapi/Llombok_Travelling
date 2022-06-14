@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "838563165243",
+    "firebase_url": "https://lombok-travel-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lombok-travel",
+    "storage_bucket": "lombok-travel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838563165243:android:6ed5f09dc06e074eac181e",
+        "android_client_info": {
+          "package_name": "com.dapi.lomboktravelling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838563165243-0in2fvpvotudk9k83rfcc5m561e1khgv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACANw1yoMb0PZd_oQG7EE6nZvSNGCWNfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838563165243-0in2fvpvotudk9k83rfcc5m561e1khgv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
