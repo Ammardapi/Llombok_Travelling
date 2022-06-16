@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LombokTravelling">
         <activity
+            android:name=".model.user"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity

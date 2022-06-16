@@ -45,29 +45,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_Password" />
 
-    <TextView
-        android:id="@+id/textView"
+
+    <LinearLayout
+        android:id="@+id/ll_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Belum Punya Akun?"
-        app:layout_constraintEnd_toStartOf="@+id/tv_regis"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="365dp" />
-
-    <TextView
-        android:id="@+id/tv_regis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Buat Akun."
-
-
-        android:textColor="#5DCADD"
-        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        tools:ignore="MissingClass,MissingConstraints"
-        tools:layout_editor_absoluteY="365dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login">
+
+        <TextView
+            android:id="@+id/textView3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Belum punya akun? " />
+
+        <TextView
+            android:id="@+id/tv_daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Buat Akun."
+            android:textColor="#3F51B5" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
