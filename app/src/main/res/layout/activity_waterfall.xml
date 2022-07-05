@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WaterfallActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="serif-monospace"
+        android:text="Wartefall Tourist Destination"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_tiukelep"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/terjun"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_sdgile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_tiukelep"
+        app:srcCompat="@drawable/terjun"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_benangkelambu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_sdgile"
+        app:srcCompat="@drawable/terjun"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_tibuatas"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_benangkelambu"
+        app:srcCompat="@drawable/terjun"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_mangkusakti"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_tibuatas"
+        app:srcCompat="@drawable/terjun"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_tiukelep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Tiu Kelep WaterFall"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_tiukelep"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="North Lombok"
+        app:layout_constraintStart_toEndOf="@+id/iv_tiukelep"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tiukelep"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_jrktiukelep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_tiukelep"
+        app:layout_constraintTop_toBottomOf="@+id/t"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_sdgile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Sendang Gile WaterFall"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_sdgile"
+        app:layout_constraintTop_toBottomOf="@+id/iv_tiukelep" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="North Lombok"
+        app:layout_constraintStart_toEndOf="@+id/iv_sdgile"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sdgile" />
+
+    <TextView
+        android:id="@+id/tv_jrksdgile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_sdgile"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/tv_bngkelambu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Benang Kelambu WaterFall"
+        app:layout_constraintStart_toEndOf="@+id/iv_benangkelambu"
+        app:layout_constraintTop_toBottomOf="@+id/iv_sdgile" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Center Lombok"
+        app:layout_constraintStart_toEndOf="@+id/iv_benangkelambu"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bngkelambu" />
+
+    <TextView
+        android:id="@+id/tv_jrkbngklambu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_benangkelambu"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/tv_tibuatas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Tibu Atas WaterFall"
+        app:layout_constraintStart_toEndOf="@+id/iv_tibuatas"
+        app:layout_constraintTop_toBottomOf="@+id/iv_benangkelambu" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="West Lombok"
+        app:layout_constraintStart_toEndOf="@+id/iv_tibuatas"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tibuatas" />
+
+    <TextView
+        android:id="@+id/tv_jrktibuatas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_tibuatas"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/tv_mangkusakti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Mangku Sakti WaterFall"
+        app:layout_constraintStart_toEndOf="@+id/iv_mangkusakti"
+        app:layout_constraintTop_toBottomOf="@+id/iv_tibuatas" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Center Lombok"
+        app:layout_constraintStart_toEndOf="@+id/iv_mangkusakti"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mangkusakti" />
+
+    <TextView
+        android:id="@+id/tv_jarakmangku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_mangkusakti"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

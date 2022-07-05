@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LombokTravelling">
         <activity
+            android:name=".ReligiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CultureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RestaurantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WaterfallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MountainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BeachActivity"
+            android:exported="false" />
+        <activity
             android:name=".model.user"
             android:exported="false" />
         <activity

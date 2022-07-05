@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CultureActivity">
+
+    <TextView
+        android:id="@+id/tv_topat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Perang Topat"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_topat"
+        app:layout_constraintTop_toBottomOf="@+id/iv_nyale"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Lingsar Lombok Barat"
+        app:layout_constraintStart_toEndOf="@+id/iv_topat"
+        app:layout_constraintTop_toBottomOf="@+id/tv_topat"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_jaraktopat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_topat"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_nyongkolan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Nyongkolan"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_nyokolan"
+        app:layout_constraintTop_toBottomOf="@+id/iv_topat"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/iv_nyokolan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nyongkolan"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/iv_nyokolan"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Destinasi Wisata Budaya"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_sade"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/budaya"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_sukarara"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_sade"
+        app:srcCompat="@drawable/budaya"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_nyale"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_sukarara"
+        app:srcCompat="@drawable/budaya"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_topat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_nyale"
+        app:srcCompat="@drawable/budaya"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_nyokolan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_topat"
+        app:srcCompat="@drawable/budaya"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_sukarara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Belajar Tenun Kain"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_sukarara"
+        app:layout_constraintTop_toBottomOf="@+id/iv_sade"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Sukarara, Lombok Timur"
+        app:layout_constraintStart_toEndOf="@+id/iv_sukarara"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sukarara"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_jaraksukarara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_sukarara"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_nyale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Festival Bau Nyale"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_nyale"
+        app:layout_constraintTop_toBottomOf="@+id/iv_sukarara"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Kuta Mandalika, Lombok Tengah"
+        app:layout_constraintStart_toEndOf="@+id/iv_nyale"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nyale"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_jaraknyale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_nyale"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_sade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Rumah Adat Sade/Ende"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_sade"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Desa Rambitan Sade"
+        app:layout_constraintStart_toEndOf="@+id/iv_sade"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sade"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_jaraksade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_sade"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

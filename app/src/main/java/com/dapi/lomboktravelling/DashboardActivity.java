@@ -2,7 +2,9 @@ package com.dapi.lomboktravelling;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 public class DashboardActivity extends AppCompatActivity {
@@ -24,5 +26,50 @@ public class DashboardActivity extends AppCompatActivity {
         culture.setImageResource(R.drawable.budaya);
         ImageView religi =findViewById(R.id.iv_religi);
         religi.setImageResource(R.drawable.religi);
+
+
+
+        pantai.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DashboardActivity.this, BeachActivity.class);
+                startActivity(intent);
+            }
+        });
+        hill.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DashboardActivity.this, MountainActivity.class);
+                startActivity(intent);
+            }
+        });
+        terjun.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DashboardActivity.this, WaterfallActivity.class);
+                startActivity(intent);
+            }
+        });
+        rest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DashboardActivity.this, RestaurantActivity.class);
+                startActivity(intent);
+            }
+        });
+        culture.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DashboardActivity.this, RestaurantActivity.class);
+                startActivity(intent);
+            }
+        });
+        religi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DashboardActivity.this, ReligiActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
