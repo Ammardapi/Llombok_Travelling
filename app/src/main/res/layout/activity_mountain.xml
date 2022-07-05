@@ -26,7 +26,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_toEndOf="@+id/iv_rinjani"
-        android:text="Rinjani Mountain"
+        android:text="Gunung Rinjani"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/iv_rinjani"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -61,7 +61,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_toEndOf="@+id/iv_rinjani"
-        android:text="Pergasingan Hill"
+        android:text=" Bukit Pergasingan"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/iv_pergasingan"
         app:layout_constraintTop_toBottomOf="@+id/iv_rinjani" />
@@ -134,7 +134,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_toEndOf="@+id/iv_rinjani"
-        android:text="Sempana Hill"
+        android:text="Bukit Sempana"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/iv_sempana"
         app:layout_constraintTop_toBottomOf="@+id/iv_pergasingan" />
@@ -169,7 +169,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_toEndOf="@+id/iv_sempana"
-        android:text="Nanggi Hill"
+        android:text="Bukit Nanggi"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/iv_nanggi"
         app:layout_constraintTop_toBottomOf="@+id/iv_sempana" />
@@ -191,7 +191,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:fontFamily="serif-monospace"
-        android:text="Mountain Tourist Destination"
+        android:text="Destinasi WIsata Gunung"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="24dp"

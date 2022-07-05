@@ -6,4 +6,249 @@
     android:layout_height="match_parent"
     tools:context=".ReligiActivity">
 
+    <ImageView
+        android:id="@+id/iv_ic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/ic"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_syiekh"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_ic"
+        app:srcCompat="@drawable/syeikh"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_baloq"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_syiekh"
+        app:srcCompat="@drawable/baloq"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_batulayar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_baloq"
+        app:srcCompat="@drawable/batulayar"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_rembitan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_batulayar"
+        app:srcCompat="@drawable/rembitan"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="serif-monospace"
+        android:text="Destinasi Wisata Religi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Islamic Center Lombok"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_ic"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Mataram, NTB"
+        app:layout_constraintStart_toEndOf="@+id/iv_ic"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ic"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/tv_jrkic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_ic"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="286dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Maqam Maulana Syeikh Muhammad Zainuddin Abdul Majid"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_syiekh"
+        app:layout_constraintTop_toBottomOf="@+id/iv_ic"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Lombok Timur"
+        app:layout_constraintStart_toEndOf="@+id/iv_syiekh"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_jrksyeikh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_syiekh"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:text="Taman Makam Loang Baloq"
+        app:layout_constraintStart_toEndOf="@+id/iv_baloq"
+        app:layout_constraintTop_toBottomOf="@+id/iv_syiekh"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Mataram"
+        app:layout_constraintStart_toEndOf="@+id/iv_baloq"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_baloq"
+        app:layout_constraintTop_toBottomOf="@+id/textView28"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Makam Batulayar"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_batulayar"
+        app:layout_constraintTop_toBottomOf="@+id/iv_baloq"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Lombok Barat"
+        app:layout_constraintStart_toEndOf="@+id/iv_batulayar"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_batulayar"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Masjid Kuno Rembitan"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_rembitan"
+        app:layout_constraintTop_toBottomOf="@+id/iv_batulayar"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Lombok Timur"
+        app:layout_constraintStart_toEndOf="@+id/iv_rembitan"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        app:layout_constraintStart_toEndOf="@+id/iv_rembitan"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

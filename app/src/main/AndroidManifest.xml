@@ -16,9 +16,6 @@
             android:name=".CultureActivity"
             android:exported="false" />
         <activity
-            android:name=".RestaurantActivity"
-            android:exported="false" />
-        <activity
             android:name=".WaterfallActivity"
             android:exported="false" />
         <activity

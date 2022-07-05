@@ -48,7 +48,7 @@
         android:layout_marginTop="24dp"
         android:text="Nyongkolan"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/iv_nyokolan"
+        app:layout_constraintStart_toEndOf="@+id/iv_nyongkolan"
         app:layout_constraintTop_toBottomOf="@+id/iv_topat"
         tools:ignore="MissingConstraints" />
 
@@ -59,7 +59,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:text="-"
-        app:layout_constraintStart_toEndOf="@+id/iv_nyokolan"
+        app:layout_constraintStart_toEndOf="@+id/iv_nyongkolan"
         app:layout_constraintTop_toBottomOf="@+id/tv_nyongkolan"
         tools:ignore="MissingConstraints" />
 
@@ -70,7 +70,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:text="-"
-        app:layout_constraintStart_toEndOf="@+id/iv_nyokolan"
+        app:layout_constraintStart_toEndOf="@+id/iv_nyongkolan"
         app:layout_constraintTop_toBottomOf="@+id/textView29"
         tools:ignore="MissingConstraints" />
 
@@ -98,18 +98,19 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:srcCompat="@drawable/budaya"
+        app:srcCompat="@drawable/sade"
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/iv_sukarara"
+        android:id="@+id/iv_tenun"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_sade"
-        app:srcCompat="@drawable/budaya"
+        app:srcCompat="@drawable/tenun"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -118,9 +119,10 @@
         android:layout_height="80dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iv_sukarara"
-        app:srcCompat="@drawable/budaya"
+        app:layout_constraintTop_toBottomOf="@+id/iv_tenun"
+        app:srcCompat="@drawable/nyale"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -129,20 +131,22 @@
         android:layout_height="80dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_nyale"
-        app:srcCompat="@drawable/budaya"
+        app:srcCompat="@drawable/topat"
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/iv_nyokolan"
+        android:id="@+id/iv_nyongkolan"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_topat"
-        app:srcCompat="@drawable/budaya"
+        app:srcCompat="@drawable/nyongkolan"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -153,7 +157,7 @@
         android:layout_marginTop="24dp"
         android:text="Belajar Tenun Kain"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/iv_sukarara"
+        app:layout_constraintStart_toEndOf="@+id/iv_tenun"
         app:layout_constraintTop_toBottomOf="@+id/iv_sade"
         tools:ignore="MissingConstraints" />
 
@@ -164,7 +168,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:text="Sukarara, Lombok Timur"
-        app:layout_constraintStart_toEndOf="@+id/iv_sukarara"
+        app:layout_constraintStart_toEndOf="@+id/iv_tenun"
         app:layout_constraintTop_toBottomOf="@+id/tv_sukarara"
         tools:ignore="MissingConstraints" />
 
@@ -175,7 +179,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:text="Maps"
-        app:layout_constraintStart_toEndOf="@+id/iv_sukarara"
+        app:layout_constraintStart_toEndOf="@+id/iv_tenun"
         app:layout_constraintTop_toBottomOf="@+id/textView17"
         tools:ignore="MissingConstraints" />
 
@@ -188,7 +192,7 @@
         android:text="Festival Bau Nyale"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/iv_nyale"
-        app:layout_constraintTop_toBottomOf="@+id/iv_sukarara"
+        app:layout_constraintTop_toBottomOf="@+id/iv_tenun"
         tools:ignore="MissingConstraints" />
 
     <TextView

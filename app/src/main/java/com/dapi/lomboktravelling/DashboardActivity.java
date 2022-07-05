@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class DashboardActivity extends AppCompatActivity {
 
@@ -14,14 +15,14 @@ public class DashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
+        TextView logout = (TextView) findViewById(R.id.tv_logout);
+
         ImageView pantai =findViewById(R.id.iv_beach);
         pantai.setImageResource(R.drawable.pantai);
         ImageView hill =findViewById(R.id.iv_hill);
         hill.setImageResource(R.drawable.hill);
         ImageView terjun =findViewById(R.id.iv_waterfall);
         terjun.setImageResource(R.drawable.terjun);
-        ImageView rest =findViewById(R.id.iv_rest);
-        rest.setImageResource(R.drawable.rest);
         ImageView culture =findViewById(R.id.iv_culture);
         culture.setImageResource(R.drawable.budaya);
         ImageView religi =findViewById(R.id.iv_religi);
@@ -50,17 +51,11 @@ public class DashboardActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        rest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(DashboardActivity.this, RestaurantActivity.class);
-                startActivity(intent);
-            }
-        });
+
         culture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(DashboardActivity.this, RestaurantActivity.class);
+                Intent intent = new Intent(DashboardActivity.this, CultureActivity.class);
                 startActivity(intent);
             }
         });
@@ -68,6 +63,14 @@ public class DashboardActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(DashboardActivity.this, ReligiActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DashboardActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
